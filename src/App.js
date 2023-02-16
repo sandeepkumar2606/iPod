@@ -16,7 +16,13 @@ class App extends React.Component {
           songsvalue : false,
           artistsvalue: false,
           albumsvalue: false,
-          totalcount :0
+          totalcount :0,
+          settingsbackground:'none',
+          playlistbackground:'none',
+          songsbackground:'none',
+          artistsbackground:'none',
+          albumsbackground:'none',
+          homebackground:'#AABBAA'
       }
   }
 
@@ -29,7 +35,13 @@ class App extends React.Component {
       songsvalue : false,
       artistsvalue: false,
       albumsvalue: false,
-      totalcount:5
+      totalcount:5,
+      settingsbackground:'#AABBAA',
+      playlistbackground:'none',
+      songsbackground:'none',
+      artistsbackground:'none',
+      albumsbackground:'none',
+      homebackground:'none'
     })
 
   }
@@ -43,7 +55,13 @@ class App extends React.Component {
       songsvalue : false,
       artistsvalue: false,
       albumsvalue: false,
-      totalcount:4
+      totalcount:4,
+      settingsbackground:'none',
+      playlistbackground:'#AABBAA',
+      songsbackground:'none',
+      artistsbackground:'none',
+      albumsbackground:'none',
+      homebackground:'none'
     })
 
   }
@@ -57,7 +75,13 @@ class App extends React.Component {
       songsvalue : false,
       artistsvalue: true,
       albumsvalue: false,
-      totalcount:3
+      totalcount:3,
+      settingsbackground:'none',
+      playlistbackground:'none',
+      songsbackground:'none',
+      artistsbackground:'#AABBAA',
+      albumsbackground:'none',
+      homebackground:'none'
     })
 
   }
@@ -71,7 +95,13 @@ class App extends React.Component {
       songsvalue : false,
       artistsvalue: false,
       albumsvalue: true,
-      totalcount:2
+      totalcount:2,
+      settingsbackground:'none',
+      playlistbackground:'none',
+      songsbackground:'none',
+      artistsbackground:'none',
+      albumsbackground:'#AABBAA',
+      homebackground:'none'
     })
 
   }
@@ -84,7 +114,13 @@ class App extends React.Component {
       songsvalue : true,
       artistsvalue: false,
       albumsvalue: false,
-      totalcount:1
+      totalcount:1,
+      settingsbackground:'none',
+      playlistbackground:'none',
+      songsbackground:'#AABBAA',
+      artistsbackground:'none',
+      albumsbackground:'none',
+      homebackground:'none'
       
     })
 
@@ -99,7 +135,13 @@ class App extends React.Component {
       songsvalue : false,
       artistsvalue: false,
       albumsvalue: false,
-      totalcount:0
+      totalcount:0,
+      settingsbackground:'none',
+      playlistbackground:'none',
+      songsbackground:'none',
+      artistsbackground:'none',
+      albumsbackground:'none',
+      homebackground:'#AABBAA'
       
     })
 
@@ -118,7 +160,13 @@ class App extends React.Component {
         songsvalue : false,
         artistsvalue: false,
         albumsvalue: false,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'none',
+        playlistbackground:'none',
+        songsbackground:'none',
+        artistsbackground:'none',
+        albumsbackground:'none',
+        homebackground:'#AABBAA'
         
       })
   
@@ -131,7 +179,13 @@ class App extends React.Component {
         songsvalue : true,
         artistsvalue: false,
         albumsvalue: false,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'none',
+        playlistbackground:'none',
+        songsbackground:'#AABBAA',
+        artistsbackground:'none',
+        albumsbackground:'none',
+        homebackground:'none'
         
       })
   
@@ -144,7 +198,13 @@ class App extends React.Component {
         songsvalue : false,
         artistsvalue: false,
         albumsvalue: true,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'none',
+        playlistbackground:'none',
+        songsbackground:'none',
+        artistsbackground:'none',
+        albumsbackground:'#AABBAA',
+        homebackground:'none'
         
       })
   
@@ -157,7 +217,13 @@ class App extends React.Component {
         songsvalue : false,
         artistsvalue: true,
         albumsvalue: false,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'none',
+        playlistbackground:'none',
+        songsbackground:'none',
+        artistsbackground:'#AABBAA',
+        albumsbackground:'none',
+        homebackground:'none'
         
       })
   
@@ -170,7 +236,13 @@ class App extends React.Component {
         songsvalue : false,
         artistsvalue: false,
         albumsvalue: false,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'none',
+        playlistbackground:'#AABBAA',
+        songsbackground:'none',
+        artistsbackground:'none',
+        albumsbackground:'none',
+        homebackground:'none'
         
       })
   
@@ -183,7 +255,13 @@ class App extends React.Component {
         songsvalue : false,
         artistsvalue: false,
         albumsvalue: false,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'#AABBAA',
+        playlistbackground:'none',
+        songsbackground:'none',
+        artistsbackground:'none',
+        albumsbackground:'none',
+        homebackground:'none'
         
       })
   
@@ -204,7 +282,13 @@ class App extends React.Component {
         songsvalue : false,
         artistsvalue: false,
         albumsvalue: false,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'none',
+        playlistbackground:'none',
+        songsbackground:'none',
+        artistsbackground:'none',
+        albumsbackground:'none',
+        homebackground:'#AABBAA'
         
       })
   
@@ -217,7 +301,13 @@ class App extends React.Component {
         songsvalue : true,
         artistsvalue: false,
         albumsvalue: false,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'none',
+        playlistbackground:'none',
+        songsbackground:'#AABBAA',
+        artistsbackground:'none',
+        albumsbackground:'none',
+        homebackground:'none'
         
       })
   
@@ -230,7 +320,13 @@ class App extends React.Component {
         songsvalue : false,
         artistsvalue: false,
         albumsvalue: true,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'none',
+        playlistbackground:'none',
+        songsbackground:'none',
+        artistsbackground:'none',
+        albumsbackground:'#AABBAA',
+        homebackground:'none'
         
       })
   
@@ -243,7 +339,13 @@ class App extends React.Component {
         songsvalue : false,
         artistsvalue: true,
         albumsvalue: false,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'none',
+        playlistbackground:'none',
+        songsbackground:'none',
+        artistsbackground:'#AABBAA',
+        albumsbackground:'none',
+        homebackground:'none'
         
       })
   
@@ -256,7 +358,13 @@ class App extends React.Component {
         songsvalue : false,
         artistsvalue: false,
         albumsvalue: false,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'none',
+        playlistbackground:'#AABBAA',
+        songsbackground:'none',
+        artistsbackground:'none',
+        albumsbackground:'none',
+        homebackground:'none'
         
       })
   
@@ -269,7 +377,13 @@ class App extends React.Component {
         songsvalue : false,
         artistsvalue: false,
         albumsvalue: false,
-        totalcount: this.state.totalcount
+        totalcount: this.state.totalcount,
+        settingsbackground:'#AABBAA',
+        playlistbackground:'none',
+        songsbackground:'none',
+        artistsbackground:'none',
+        albumsbackground:'none',
+        homebackground:'none'
         
       })
   
@@ -285,7 +399,13 @@ class App extends React.Component {
       playlistvalue : false,
       songsvalue : false,
       artistsvalue: false,
-      albumsvalue: false
+      albumsvalue: false,
+      settingsbackground:'none',
+      playlistbackground:'none',
+      songsbackground:'none',
+      artistsbackground:'none',
+      albumsbackground:'none',
+      homebackground:'#AABBAA'
       
     })
 
@@ -298,13 +418,22 @@ class App extends React.Component {
       playlistvalue : false,
       songsvalue : false,
       artistsvalue: false,
-      albumsvalue: false
+      albumsvalue: false,
+      settingsbackground:'#AABBAA',
+      playlistbackground:'none',
+      songsbackground:'none',
+      artistsbackground:'none',
+      albumsbackground:'none',
+      homebackground:'none'
     })
+
+    console.log('settings',this.state.settingsbackground);
+
   }
 
   render()
   {
-    const {settingsvalue, artistsvalue, albumsvalue, songsvalue, playlistvalue, totalcount} = this.state;
+    const {settingsvalue, artistsvalue, albumsvalue, songsvalue, playlistvalue, totalcount,settingsbackground,playlistbackground,albumsbackground,artistsbackground,songsbackground,homebackground} = this.state;
 
     return (
         
@@ -318,18 +447,18 @@ class App extends React.Component {
                 
                 <h2 style={{padding:4}}>iPod.js</h2>
                 <ul className="list" style={styles.mainlist}>
-                <div className="firstdiv" style={{marginLeft:-25, background:'#AABBAA',marginRight:3,cursor: 'pointer'}}><li onClick={this.addImages0}>Home </li></div> 
-                <div style={{marginLeft:-25,marginRight:3,cursor: 'pointer'}}><li onClick={this.addImages1}>Songs </li></div>
-                <div style={{marginLeft:-25,marginRight:3,cursor: 'pointer'}}><li onClick={this.addImages2}>Albums </li></div>
-                <div style={{marginLeft:-25,marginRight:3,cursor: 'pointer'}}><li onClick={this.addImages3}>Artists </li></div>
-                <div style={{marginLeft:-25,marginRight:3,cursor: 'pointer'}}><li onClick={this.addImages4}>Playlists </li></div>
-                <div style={{marginLeft:-25,marginRight:3,cursor: 'pointer'}}><li  onClick={this.addImages5} >Settings </li></div>
+                <div className="firstdiv" style={{marginLeft:-25, background:homebackground,marginRight:3,cursor: 'pointer'}}><li onClick={this.addImages0}>Home </li></div> 
+                <div style={{marginLeft:-25,marginRight:3,cursor: 'pointer',background:songsbackground}}><li onClick={this.addImages1}>Songs </li></div>
+                <div style={{marginLeft:-25,marginRight:3,cursor: 'pointer',background:albumsbackground}}><li onClick={this.addImages2}>Albums </li></div>
+                <div style={{marginLeft:-25,marginRight:3,cursor: 'pointer',background:artistsbackground}}><li onClick={this.addImages3}>Artists </li></div>
+                <div style={{marginLeft:-25,marginRight:3,cursor: 'pointer',background:playlistbackground}}><li onClick={this.addImages4}>Playlists </li></div>
+                <div style={{marginLeft:-25,marginRight:3,cursor: 'pointer',background:settingsbackground}}><li  onClick={this.addImages5} >Settings </li></div>
                 </ul>
 
             </div>
 
             <div className="rightscreen" style= {styles.firstscreenrightdiv}>
-                                
+
                  {songsvalue && <UpperScreen1 />}
                  {albumsvalue && <UpperScreen2 />}
                  {artistsvalue && <UpperScreen3 />}
